@@ -6,6 +6,11 @@ repo_url: https://github.com/varshithrajbasa/dsa-interview-handbook
 repo_name: varshithrajbasa/dsa-interview-handbook
 edit_uri: edit/main/docs/
 
+extra:
+  analytics:
+    provider: google
+    property: G-C5P4BERBPR
+
 validation:
   links:
     not_found: ignore
@@ -13,24 +18,35 @@ validation:
 theme:
   name: material
   palette:
-    # Light mode
-    - scheme: default
-      primary: indigo
-      accent: indigo
+    # Default: follows user's system OS appearance
+    - media: "(prefers-color-scheme)"
+      primary: cyan
+      accent: orange
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Explicit light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+
+    # Explicit dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: orange
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system mode
+
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -66,7 +82,7 @@ markdown_extensions:
   - md_in_html
 
 extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
