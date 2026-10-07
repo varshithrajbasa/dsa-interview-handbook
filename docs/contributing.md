@@ -8,7 +8,7 @@ Welcome! We are excited that you want to contribute to the **Most Important DSA 
 
 1. **Fork & Clone** the repository:
    ```bash
-   git clone https://github.com/<your-username>/dsa-interview-handbook.git
+   git clone https://github.com/varshithrajbasa/dsa-interview-handbook.git
    cd dsa-interview-handbook
    ```
 2. **Create a new branch** for your question or topic:
