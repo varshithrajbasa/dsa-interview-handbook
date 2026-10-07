@@ -10,7 +10,7 @@ For the interactive documentation version, visit [How to Contribute](docs/contri
 
 1. **Fork & Clone** the repository:
    ```bash
-   git clone https://github.com/<your-username>/dsa-interview-handbook.git
+   git clone https://github.com/varshithrajbasa/dsa-interview-handbook.git
    cd dsa-interview-handbook
    ```
 2. **Create a new branch** for your question or topic:
