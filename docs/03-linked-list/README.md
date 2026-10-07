@@ -1,4 +1,4 @@
-[← Back to Main Index](../../README.md)
+[← Back to Main Index](../index.md)
 
 # Linked List - Most Important Questions and Answers
 

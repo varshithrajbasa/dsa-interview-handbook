@@ -1,4 +1,4 @@
-[← Back to Main Index](../../README.md)
+[← Back to Main Index](../index.md)
 
 # Two Pointers & Sliding Window - Most Important Questions and Answers
 
