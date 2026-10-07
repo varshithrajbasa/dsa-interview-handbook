@@ -29,75 +29,9 @@ The Foundation module establishes the mathematical and analytical toolkit requir
 
 ---
 
-## 📝 Reusable Question Template Skeleton
-
-Copy and use this template whenever adding a new question to this module:
-
-```markdown
-### Problem Name (e.g., LeetCode #XX - Problem Title)
-
-#### 1. Problem Statement
-- **Description:** Provide a precise description of the problem.
-- **Input:** Specify types and structure of input arguments.
-- **Output:** Specify return type and value expectations.
-- **Constraints:**
-  - `1 <= n <= 10^5`
-  - Values bounded between `[-10^9, 10^9]`
-
-#### 2. Intuition & Approach
-- **Key Insight:** Explain the "Aha!" moment or underlying mathematical invariant.
-- **Brute Force:**
-  - Approach: Describe naive baseline.
-  - Limitations: Why this approach is insufficient.
-- **Optimal Strategy:**
-  - Step 1: Initialize states/pointers/masks.
-  - Step 2: Iterate or recurse with invariant maintenance.
-  - Step 3: Handle edge conditions (zeros, overflow, negative values).
-
-#### 3. Time & Space Complexity
-- **Time Complexity:** $O(...)$ — detailed justification.
-- **Space Complexity:** $O(...)$ — detailed justification (auxiliary vs stack).
-
-#### 4. Code Implementation
-
-=== "Python"
-    ```python
-    def solution(n: int) -> int:
-        # TODO: Implement optimal solution
-        pass
-    ```
-
-=== "C++"
-    ```cpp
-    #include <vector>
-
-    class Solution {
-    public:
-        int solution(int n) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    };
-    ```
-
-=== "Java"
-    ```java
-    class Solution {
-        public int solution(int n) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    }
-    ```
-
-=== "TypeScript"
-    ```typescript
-    function solution(n: number): number {
-        // TODO: Implement optimal solution
-        return 0;
-    }
-    ```
-```
+> [!TIP]
+> **Want to contribute a solution or add a new question to this topic?**  
+> Check our standardized format and guidelines in the [How to Contribute & Question Template Guide](../contributing.md).
 
 ---
 

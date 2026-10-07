@@ -30,76 +30,9 @@ Strings are sequences of characters often subject to immutability constraints in
 
 ---
 
-## 📝 Reusable Question Template Skeleton
-
-Copy and use this template whenever adding a new question to this module:
-
-```markdown
-### Problem Name (e.g., LeetCode #XX - Problem Title)
-
-#### 1. Problem Statement
-- **Description:** Provide a precise description of the problem.
-- **Input:** String `s` (and potential auxiliary inputs).
-- **Output:** Resulting string, boolean flag, or count.
-- **Constraints:**
-  - `1 <= s.length <= 10^5`
-  - `s` consists of lowercase/uppercase English letters or ASCII symbols.
-
-#### 2. Intuition & Approach
-- **Key Insight:** Character frequency counting, sliding window invariant, or symmetric expansion.
-- **Brute Force:**
-  - Approach: Checking all $O(N^2)$ substrings.
-  - Limitations: Inefficient due to slicing overhead ($O(N^3)$ overall).
-- **Optimal Strategy:**
-  - Step 1: Initialize frequency map/array and window boundaries (`left`, `right`).
-  - Step 2: Iterate through the string, updating frequency counts and state.
-  - Step 3: Contract window when condition breaks, or expand center for palindromes.
-
-#### 3. Time & Space Complexity
-- **Time Complexity:** $O(...)$ — explain single/double passes.
-- **Space Complexity:** $O(...)$ — distinguish auxiliary space ($O(1)$ alphabet vs $O(N)$ hash table).
-
-#### 4. Code Implementation
-
-=== "Python"
-    ```python
-    class Solution:
-        def solve(self, s: str) -> int:
-            # TODO: Implement optimal solution
-            pass
-    ```
-
-=== "C++"
-    ```cpp
-    #include <string>
-
-    class Solution {
-    public:
-        int solve(std::string s) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    };
-    ```
-
-=== "Java"
-    ```java
-    class Solution {
-        public int solve(String s) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    }
-    ```
-
-=== "TypeScript"
-    ```typescript
-    function solve(s: string): number {
-        // TODO: Implement optimal solution
-        return 0;
-    }
-    ```
-```
+> [!TIP]
+> **Want to contribute a solution or add a new question to this topic?**  
+> Check our standardized format and guidelines in the [How to Contribute & Question Template Guide](../contributing.md).
 
 ---
 

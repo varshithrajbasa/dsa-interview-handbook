@@ -8,7 +8,7 @@ This documentation is a comprehensive, battle-tested compilation of essential Da
 
 ## 🎯 Target Audience & Goals
 
-- **Target Audience:** Software engineers, computer science students, and tech professionals preparing for technical interviews at FAANG / Big Tech, unicorns, and high-growth engineering teams.
+- **Target Audience:** Software engineers, computer science students, and tech professionals preparing for technical interviews at MAANG / FAANG (Meta, Amazon, Apple, Netflix, Google), Big Tech, unicorns, and high-growth engineering teams.
 - **Primary Goal:** Transform algorithmic pattern recognition into second nature. Instead of memorizing hundreds of ad-hoc problems, master the core 14 fundamental topics and their signature patterns.
 
 ---

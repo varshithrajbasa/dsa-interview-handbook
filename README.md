@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with MkDocs Material](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
-A curated, production-ready handbook containing the most frequently asked, high-yield Data Structures and Algorithms (DSA) interview questions, patterns, intuitions, and optimized solutions. Designed specifically for software engineers preparing for technical interviews at FAANG, Big Tech, and top product companies.
+A curated, production-ready handbook containing the most frequently asked, high-yield Data Structures and Algorithms (DSA) interview questions, patterns, intuitions, and optimized solutions. Designed specifically for software engineers preparing for technical interviews at MAANG / FAANG (Meta, Amazon, Apple, Netflix, Google), Big Tech, and top product companies.
 
 ---
 

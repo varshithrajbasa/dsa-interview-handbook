@@ -36,75 +36,9 @@ Greedy algorithms construct a solution by making the locally optimal choice at e
 
 ---
 
-## 📝 Reusable Question Template Skeleton
-
-Copy and use this template whenever adding a new question to this module:
-
-```markdown
-### Problem Name (e.g., LeetCode #XX - Problem Title)
-
-#### 1. Problem Statement
-- **Description:** Provide a precise description of the problem.
-- **Input:** Sequences, intervals, or resource constraints.
-- **Output:** Minimum operations, maximum count, or boolean feasibility.
-- **Constraints:**
-  - `1 <= nums.length <= 10^5`
-
-#### 2. Intuition & Approach
-- **Greedy Invariant:** What is the locally optimal choice at each step?
-- **Proof / Heuristic:** Why does this local choice guarantee global optimality (exchange argument)?
-- **Step-by-Step Logic:**
-  - Step 1: Pre-sort or compute lookup tables (e.g., last occurrence indices).
-  - Step 2: Iterate sequentially, making greedy decision.
-  - Step 3: Accumulate count/length or terminate early if unreachable.
-
-#### 3. Time & Space Complexity
-- **Time Complexity:** $O(N)$ or $O(N \log N)$ (dominated by initial sort).
-- **Space Complexity:** $O(1)$ auxiliary variables or $O(N)$ for sorting/frequency tables.
-
-#### 4. Code Implementation
-
-=== "Python"
-    ```python
-    from typing import List
-
-    class Solution:
-        def solve(self, nums: List[int]) -> bool:
-            # TODO: Implement optimal solution
-            pass
-    ```
-
-=== "C++"
-    ```cpp
-    #include <vector>
-
-    class Solution {
-    public:
-        bool solve(std::vector<int>& nums) {
-            // TODO: Implement optimal solution
-            return true;
-        }
-    };
-    ```
-
-=== "Java"
-    ```java
-    class Solution {
-        public boolean solve(int[] nums) {
-            // TODO: Implement optimal solution
-            return true;
-        }
-    }
-    ```
-
-=== "TypeScript"
-    ```typescript
-    function solve(nums: number[]): boolean {
-        // TODO: Implement optimal solution
-        return true;
-    }
-    ```
-```
+> [!TIP]
+> **Want to contribute a solution or add a new question to this topic?**  
+> Check our standardized format and guidelines in the [How to Contribute & Question Template Guide](../contributing.md).
 
 ---
 

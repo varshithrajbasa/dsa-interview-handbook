@@ -45,74 +45,9 @@ Dynamic Programming (DP) solves complex optimization problems by breaking them d
 
 ---
 
-## 📝 Reusable Question Template Skeleton
-
-Copy and use this template whenever adding a new question to this module:
-
-```markdown
-### Problem Name (e.g., LeetCode #XX - Problem Title)
-
-#### 1. Problem Statement
-- **Description:** Provide a precise description of the problem.
-- **Input:** Sequences, values, capacity, or cost matrices.
-- **Output:** Maximum profit, minimum cost, total ways, or boolean feasibility.
-- **Constraints:**
-  - $N \le 10^3$ to $10^5$
-
-#### 2. Intuition & Approach
-- **State Definition:** What does `dp[i]` (or `dp[i][j]`) represent precisely?
-- **Base Cases:** Smallest subproblems (e.g. `dp[0] = 0`, `dp[1] = ...`).
-- **Recurrence Relation:** Formula to transition from subproblems to `dp[i]`.
-- **Computation Direction:** Top-Down (memoized recursion) vs Bottom-Up (iterative tabulation).
-- **Space Optimization:** Can the table be compressed from $O(N^2) \to O(N)$ or $O(N) \to O(1)$?
-
-#### 3. Time & Space Complexity
-- **Time Complexity:** $O(\text{Number of States} \times \text{Work per State})$.
-- **Space Complexity:** $O(\text{Number of States})$ or $O(1)$ if space-optimized.
-
-#### 4. Code Implementation
-
-=== "Python"
-    ```python
-    from typing import List
-
-    class Solution:
-        def solve(self, n: int) -> int:
-            # TODO: Implement optimal solution
-            pass
-    ```
-
-=== "C++"
-    ```cpp
-    #include <vector>
-
-    class Solution {
-    public:
-        int solve(int n) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    };
-    ```
-
-=== "Java"
-    ```java
-    class Solution {
-        public int solve(int n) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    }
-    ```
-
-=== "TypeScript"
-    ```typescript
-    function solve(n: number): number {
-        // TODO: Implement optimal solution
-        return 0;
-    }
-    ```
-```
+> [!TIP]
+> **Want to contribute a solution or add a new question to this topic?**  
+> Check our standardized format and guidelines in the [How to Contribute & Question Template Guide](../contributing.md).
 
 ---
 

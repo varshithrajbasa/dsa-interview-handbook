@@ -36,75 +36,9 @@ Two Pointers and Sliding Window techniques optimize quadratic $O(N^2)$ brute-for
 
 ---
 
-## 📝 Reusable Question Template Skeleton
-
-Copy and use this template whenever adding a new question to this module:
-
-```markdown
-### Problem Name (e.g., LeetCode #XX - Problem Title)
-
-#### 1. Problem Statement
-- **Description:** Provide a precise description of the problem.
-- **Input:** Array, string, or stream with numeric criteria/target.
-- **Output:** Subarray length, coordinates, or accumulated score.
-- **Constraints:**
-  - `1 <= nums.length <= 10^5`
-
-#### 2. Intuition & Approach
-- **Key Insight:** Is this fixed window, dynamic window, or opposite-direction two pointers?
-- **Invariant:** What condition holds true inside the window `[left, right]`?
-- **Movement Rules:**
-  - Expansion: When and how `right` advances.
-  - Contraction: When and how `left` advances to restore the invariant.
-- **Result Update:** Recorded upon expansion or upon finding minimal valid window.
-
-#### 3. Time & Space Complexity
-- **Time Complexity:** $O(N)$ — amortized analysis proving both `left` and `right` traverse the array at most once.
-- **Space Complexity:** $O(1)$ or $O(K)$ — frequency maps or pointer storage.
-
-#### 4. Code Implementation
-
-=== "Python"
-    ```python
-    from typing import List
-
-    class Solution:
-        def solve(self, nums: List[int]) -> int:
-            # TODO: Implement optimal solution
-            pass
-    ```
-
-=== "C++"
-    ```cpp
-    #include <vector>
-
-    class Solution {
-    public:
-        int solve(std::vector<int>& nums) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    };
-    ```
-
-=== "Java"
-    ```java
-    class Solution {
-        public int solve(int[] nums) {
-            // TODO: Implement optimal solution
-            return 0;
-        }
-    }
-    ```
-
-=== "TypeScript"
-    ```typescript
-    function solve(nums: number[]): number {
-        // TODO: Implement optimal solution
-        return 0;
-    }
-    ```
-```
+> [!TIP]
+> **Want to contribute a solution or add a new question to this topic?**  
+> Check our standardized format and guidelines in the [How to Contribute & Question Template Guide](../contributing.md).
 
 ---
 

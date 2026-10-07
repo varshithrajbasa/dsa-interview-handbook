@@ -42,76 +42,9 @@ Backtracking is an algorithmic paradigm for solving constraint satisfaction prob
 
 ---
 
-## 📝 Reusable Question Template Skeleton
-
-Copy and use this template whenever adding a new question to this module:
-
-```markdown
-### Problem Name (e.g., LeetCode #XX - Problem Title)
-
-#### 1. Problem Statement
-- **Description:** Provide a precise description of the problem.
-- **Input:** Choices, candidate collections, constraints, target sum/size.
-- **Output:** List of valid combinations, permutations, or boolean feasibility.
-- **Constraints:**
-  - $N \le 20$ (indicative of $O(2^N)$ or $O(N!)$ combinatorial search).
-
-#### 2. Intuition & Approach
-- **Decision Tree:** What constitutes a step/level in the recursion?
-- **Base Case:** When is a candidate added to the results?
-- **Pruning Conditions:** How to eliminate branches early?
-- **State Mutation & Restoration:** What state is modified before recursion and reverted after?
-
-#### 3. Time & Space Complexity
-- **Time Complexity:** $O(2^N)$ or $O(N!)$ — bounded by number of leaves in the decision tree.
-- **Space Complexity:** $O(N)$ — recursion depth and current path storage.
-
-#### 4. Code Implementation
-
-=== "Python"
-    ```python
-    from typing import List
-
-    class Solution:
-        def solve(self, nums: List[int]) -> List[List[int]]:
-            # TODO: Implement optimal solution
-            pass
-    ```
-
-=== "C++"
-    ```cpp
-    #include <vector>
-
-    class Solution {
-    public:
-        std::vector<std::vector<int>> solve(std::vector<int>& nums) {
-            // TODO: Implement optimal solution
-            return {};
-        }
-    };
-    ```
-
-=== "Java"
-    ```java
-    import java.util.List;
-    import java.util.ArrayList;
-
-    class Solution {
-        public List<List<Integer>> solve(int[] nums) {
-            // TODO: Implement optimal solution
-            return new ArrayList<>();
-        }
-    }
-    ```
-
-=== "TypeScript"
-    ```typescript
-    function solve(nums: number[]): number[][] {
-        // TODO: Implement optimal solution
-        return [];
-    }
-    ```
-```
+> [!TIP]
+> **Want to contribute a solution or add a new question to this topic?**  
+> Check our standardized format and guidelines in the [How to Contribute & Question Template Guide](../contributing.md).
 
 ---
 
