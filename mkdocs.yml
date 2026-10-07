@@ -1,0 +1,87 @@
+site_name: Most Important DSA Questions and Answers
+site_description: High-yield Data Structures and Algorithms interview questions, answers, intuition walkthroughs, and code templates.
+site_author: Varshith Raj Basa
+site_url: https://varshithrajbasa.github.io/dsa-interview-handbook/
+repo_url: https://github.com/varshithrajbasa/dsa-interview-handbook
+repo_name: varshithrajbasa/dsa-interview-handbook
+edit_uri: edit/main/docs/
+
+validation:
+  links:
+    not_found: ignore
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - 01. Foundation & Complexity: 01-foundation/README.md
+  - 02. Arrays: 02-arrays/README.md
+  - 03. Linked Lists: 03-linked-list/README.md
+  - 04. Strings: 04-strings/README.md
+  - 05. Stacks & Queues: 05-stacks-and-queues/README.md
+  - 06. Binary Search: 06-binary-search/README.md
+  - 07. Two Pointers & Sliding Window: 07-two-pointers-sliding-window/README.md
+  - 08. Binary Trees: 08-binary-tree/README.md
+  - 09. Binary Search Trees: 09-binary-search-tree/README.md
+  - 10. Heap / Priority Queue: 10-heap/README.md
+  - 11. Backtracking: 11-backtracking/README.md
+  - 12. Greedy Algorithms: 12-greedy/README.md
+  - 13. Dynamic Programming: 13-dynamic-programming/README.md
+  - 14. Graphs: 14-graphs/README.md
