@@ -3,8 +3,18 @@
 [![GitHub Pages Deployment](https://github.com/varshithrajbasa/dsa-interview-handbook/actions/workflows/deploy.yml/badge.svg)](https://github.com/varshithrajbasa/dsa-interview-handbook/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with MkDocs Material](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![GitHub stars](https://img.shields.io/github/stars/varshithrajbasa/dsa-interview-handbook?style=social)](https://github.com/varshithrajbasa/dsa-interview-handbook/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/varshithrajbasa/dsa-interview-handbook?style=social)](https://github.com/varshithrajbasa/dsa-interview-handbook/network/members)
 
 A curated, production-ready handbook containing the most frequently asked, high-yield Data Structures and Algorithms (DSA) interview questions, patterns, intuitions, and optimized solutions. Designed specifically for software engineers preparing for technical interviews at MAANG / FAANG (Meta, Amazon, Apple, Netflix, Google), Big Tech, and top product companies.
+
+---
+
+## ⭐ Star & Fork This Repository
+
+If you find this handbook helpful for your interview preparation:
+- ⭐ **Star this repository** (top right) to bookmark it, show your support, and help fellow engineers discover it!
+- 🍴 **Fork this repository** to create your own personal study tracker, check off solved problems, and contribute your own solutions!
 
 ---
 
