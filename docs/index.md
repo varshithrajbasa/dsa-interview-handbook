@@ -38,33 +38,33 @@ flowchart TD
 
 ### Module Index
 
-1. **[01. Foundation & Complexity](01-foundation/README.md)**  
+1. **[Foundation & Complexity](01-foundation/README.md)**  
    *Big-O notation, asymptotic upper/lower bounds, Bit Manipulation tricks, and essential Math foundations.*
-2. **[02. Arrays](02-arrays/README.md)**  
+2. **[Arrays](02-arrays/README.md)**  
    *Prefix sums, Kadane's algorithm, Dutch National Flag, cycle sort, and in-place matrix manipulations.*
-3. **[03. Linked Lists](03-linked-list/README.md)**  
+3. **[Linked Lists](03-linked-list/README.md)**  
    *Floyd's cycle detection, dummy heads, in-place pointer reversal, and LRU Cache design.*
-4. **[04. Strings](04-strings/README.md)**  
+4. **[Strings](04-strings/README.md)**  
    *Frequency arrays, anagram grouping, rolling hash, palindrome verification, and string transformations.*
-5. **[05. Stacks and Queues](05-stacks-and-queues/README.md)**  
+5. **[Stacks and Queues](05-stacks-and-queues/README.md)**  
    *Monotonic stacks, next greater elements, largest histogram rectangles, and monotonic sliding deques.*
-6. **[06. Binary Search](06-binary-search/README.md)**  
+6. **[Binary Search](06-binary-search/README.md)**  
    *Classic search, rotated sorted arrays, search space reduction, and binary search on the answer.*
-7. **[07. Two Pointers & Sliding Window](07-two-pointers-sliding-window/README.md)**  
+7. **[Two Pointers & Sliding Window](07-two-pointers-sliding-window/README.md)**  
    *Opposite ends collision, fast/slow runners, fixed-length windows, and dynamically expanding/shrinking windows.*
-8. **[08. Binary Trees](08-binary-tree/README.md)**  
+8. **[Binary Trees](08-binary-tree/README.md)**  
    *DFS (Pre, In, Post), BFS Level-Order, Tree diameter, Lowest Common Ancestor (LCA), and path sums.*
-9. **[09. Binary Search Trees](09-binary-search-tree/README.md)**  
+9. **[Binary Search Trees](09-binary-search-tree/README.md)**  
    *BST invariant properties, validation, in-order predecessor/successor, and balancing techniques.*
-10. **[10. Heap / Priority Queue](10-heap/README.md)**  
+10. **[Heap / Priority Queue](10-heap/README.md)**  
     *Min-heaps, max-heaps, Top-K frequent elements, streaming medians (two-heap technique), and K-way merges.*
-11. **[11. Backtracking](11-backtracking/README.md)**  
+11. **[Backtracking](11-backtracking/README.md)**  
     *Decision trees, pruning states, combinations, permutations, subsets, and N-Queens constraint satisfaction.*
-12. **[12. Greedy Algorithms](12-greedy/README.md)**  
+12. **[Greedy Algorithms](12-greedy/README.md)**  
     *Optimal substructure, greedy choice property, interval scheduling, jump game, and gas station.*
-13. **[13. Dynamic Programming](13-dynamic-programming/README.md)**  
+13. **[Dynamic Programming](13-dynamic-programming/README.md)**  
     *Top-down memoization, bottom-up tabulation, space optimization, 0/1 Knapsack, LCS, and LIS.*
-14. **[14. Graphs](14-graphs/README.md)**  
+14. **[Graphs](14-graphs/README.md)**  
     *Adjacency lists/matrices, BFS/DFS traversals, Kahn's Topological Sort, Dijkstra's algorithm, and Union-Find (Disjoint Set Union).*
 
 ---
