@@ -18,31 +18,20 @@ validation:
 theme:
   name: material
   palette:
-    # Default: follows user's system OS appearance
-    - media: "(prefers-color-scheme)"
-      primary: cyan
-      accent: orange
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Explicit light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: cyan
-      accent: orange
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
-    # Explicit dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: cyan
-      accent: orange
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to system mode
+        name: Switch to light mode
 
   features:
     - navigation.instant
